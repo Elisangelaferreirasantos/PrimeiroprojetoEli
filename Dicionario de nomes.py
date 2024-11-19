@@ -1,4 +1,4 @@
-pessoas = {
+dicionario = {
     "Ana": 25,
     "Bruno": 30,
     "Carlos": 22,
@@ -6,5 +6,5 @@ pessoas = {
     "Eduardo": 35
 }
 
-for nome, idade in pessoas.items():
+for nome, idade in dicionario.items():
     print(f"Nome: {nome}, Idade: {idade}")
